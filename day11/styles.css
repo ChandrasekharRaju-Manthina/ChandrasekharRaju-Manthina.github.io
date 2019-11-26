@@ -39,6 +39,12 @@ body {
     opacity: 0.5;
     float: right;
 }
+.button{
+    text-decoration: none;
+    color:#fefdec ;
+    background-color: #fabe1d;
+    padding: 7px 3px;
+}
 
 .menu {
     padding-left: 10px;
@@ -92,8 +98,9 @@ body {
     margin-top: 4px;
     margin-left: 2px;
     margin-right: -6px;
-    /* border: 1 solid #ddd; */
-    /* padding: 5px;
+    /* border: 1px solid #ddd; */
+    /* border: 1 solid #ddd;
+    padding: 5px;
     width: 50px; */
 }
 
@@ -113,11 +120,17 @@ body {
 
 .col {
     display: inline-block;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: -22px;
+    margin-left: 34px;
     vertical-align: top;
+}
+.img-galary-border{
+    border:2px solid #ddd;
 }
 
 .comments-table {
     display: inline-block;
+}
+.fa fa-comment{
+    padding-left: 10px;
 }
