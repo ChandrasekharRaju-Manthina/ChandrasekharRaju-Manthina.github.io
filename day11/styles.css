@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #bebebe;
+}
+
+.company {
+    font-style: oblique;
+    font-size: 29px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #3e761e;
+}
+
+.ifm {
+    float: right;
+    padding-right: 40px;
+    padding-top: 12px;
+}
+
+.img-text {
+    width: 39%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: 42481e;
+    color: white;
+    opacity: 0.5;
+    float: right;
+}
+
+.menu {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.para2 {
+    text-align: right;
+    color: black;
+}
+
+.img-card {
+    display: inline-block;
+    width: 22%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img-card-header {
+    font-weight: bold;
+    color: #3e761e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.img-with-border {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 250px;
+}
+
+/* .ifm{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+} */
+
+.img-galary-card {
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: -6px;
+    /* border: 1 solid #ddd; */
+    /* padding: 5px;
+    width: 50px; */
+}
+
+/* .img-galary{
+    height: 30;
+    width: 30;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 250px; 
+}*/
+
+/* .text-img{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+} */
+
+.col {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.comments-table {
+    display: inline-block;
+}

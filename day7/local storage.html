@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="name"> </p>
+    <p id="id"> </p>
+    <p id="address"> </p>
+    <p id="myself"> </p>
+    <script>
+        if (typeof (Storage) !== "undefined") {
+            sessionStorage.setItem("name", "pavan");
+            sessionStorage.setItem("id", "12345");
+            sessionStorage.setItem("address", "vijayawada");
+            localStorage.setItem("myself", "pavan is my brother!");
+            document.getElementById("name").innerHTML = sessionStorage.getItem("name");
+            document.getElementById("id").innerHTML = sessionStorage.getItem("id");
+            document.getElementById("address").innerHTML = sessionStorage.getItem("address");
+            document.getElementById("myself").innerHTML = localStorage.getItem("myself");
+        } else {
+            document.getElementById("display").innerHTML = "Something went wrong!";
+        }
+    </script>
+    <svg width="300" height="300">
+        <circle cx="75" cy="75" r="150" fill="green" ></circle>
+    </svg>
+    <canvas width="100" height="100" style="border:3px solid" >
+    </canvas>
+</body>
+
+</html>
