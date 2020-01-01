@@ -1,0 +1,34 @@
+.section-header{
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+.section-header::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #563d7c;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-header::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+}

@@ -4,6 +4,12 @@ body {
     color: #bebebe;
 }
 
+@media screen and (max-width: 480px) {
+    .header {
+        background-color: red;
+    }
+}
+
 .company {
     font-style: oblique;
     font-size: 29px;
@@ -35,13 +41,14 @@ body {
     transform: translate(-50%, -50%);
     font-size: 18px;
     background-color: 42481e;
-    color: white;
+    color: #FFFFFF;
     opacity: 0.5;
     float: right;
 }
-.button{
+
+.button {
     text-decoration: none;
-    color:#fefdec ;
+    color: #fefdec;
     background-color: #fabe1d;
     padding: 7px 3px;
 }
@@ -124,13 +131,15 @@ body {
     margin-left: 34px;
     vertical-align: top;
 }
-.img-galary-border{
-    border:2px solid #ddd;
+
+.img-galary-border {
+    border: 2px solid #ddd;
 }
 
 .comments-table {
     display: inline-block;
 }
-.fa fa-comment{
+
+.fa fa-comment {
     padding-left: 10px;
 }
